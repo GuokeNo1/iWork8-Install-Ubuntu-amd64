@@ -41,8 +41,8 @@ mount /dev/mmcblk1p1 temp       #挂载第一块分区到temp目录
 > 这个时候可以重启系统然后会进入到一个grub的命令行界面命令行界面亿次输入以下代码(如果安装时所有目录不在一个分区则以下代码需要更改)
 ```
 set root=(hd0,gpt2)
-linux /boot/vmlinuz-x.x-x-xx-generic root=/dev/mmclkb1p2
-#其中x.x.为版本号，输入/boot/vmlinuz-再按tab键即可补全，如果安装时是全部安装到一个分区则root目录一般是/dev/mmclkb1p2具体看个人的pad配置
+linux /boot/vmlinuz-x.x-x-xx-generic root=/dev/mmcblk1p2
+#其中x.x.为版本号，输入/boot/vmlinuz-再按tab键即可补全，如果安装时是全部安装到一个分区则root目录一般是/dev/mmcblk1p2具体看个人的pad配置
 initrd /boot/initrd.img-x.x-x-xx-generic
 #其中x.x.为版本号，输入/boot/initrd.img-再按tab键即可补全
 boot
