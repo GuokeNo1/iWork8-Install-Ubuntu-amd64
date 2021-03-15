@@ -8,7 +8,7 @@
 --------------------------
 >## **Step1:准备工作**  
 > **需要下载的文件:**  
-[Ubuntu-amd64的镜像](https://ubuntu.com/#download)、[U盘引导EFI](https://github.com/GuokeNo1/iWork8-Install-Ubuntu-amd64/tree/master/EFI/U)、[硬盘引导EFI](https://github.com/GuokeNo1/iWork8-Install-Ubuntu-amd64/tree/master/EFI/Local)、[GRUB文件夹](https://github.com/GuokeNo1/iWork8-Install-Ubuntu-amd64/tree/master/Grub)  
+[Ubuntu-amd64的镜像](https://ubuntu.com/#download)、[U盘引导EFI](https://github.com/GuokeNo1/iWork8-Install-Ubuntu-amd64/tree/master/EFI/U)、[硬盘引导EFI](https://github.com/GuokeNo1/iWork8-Install-Ubuntu-amd64/tree/master/EFI/Local)、[GRUB文件夹](https://github.com/GuokeNo1/iWork8-Install-Ubuntu-amd64/tree/master/GRUB)  
 **替换引导程序方式:**  
 默认的Ubuntu64位安装镜像写入U盘后会弹出一个磁盘其结构如下  
 ```
